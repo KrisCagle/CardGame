@@ -1,0 +1,57 @@
+{
+  "$GMRoom":"v1",
+  "%Name":"rm_island",
+  "creationCodeFile":"",
+  "inheritCode":false,
+  "inheritCreationOrder":false,
+  "inheritLayers":false,
+  "instanceCreationOrder":[
+    {"name":"inst_IS_BG","path":"rooms/rm_island/rm_island.yy",},
+    {"name":"inst_IS_DIALOGUEBOX","path":"rooms/rm_island/rm_island.yy",},
+    {"name":"inst_IS_PLAYER","path":"rooms/rm_island/rm_island.yy",},
+    {"name":"inst_IS_EXIT_WEST","path":"rooms/rm_island/rm_island.yy",},
+    {"name":"inst_IS_BOSS","path":"rooms/rm_island/rm_island.yy",},
+  ],
+  "isDnd":false,
+  "layers":[
+    {"$GMRInstanceLayer":"","%Name":"Instances","depth":0,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":false,"inheritVisibility":false,"instances":[
+        {"$GMRInstance":"v4","%Name":"inst_IS_BG","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_IS_BG","objectId":{"name":"obj_island_bg","path":"objects/obj_island_bg/obj_island_bg.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":0.0,"y":0.0,},
+        {"$GMRInstance":"v4","%Name":"inst_IS_DIALOGUEBOX","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_IS_DIALOGUEBOX","objectId":{"name":"obj_dialogue_box","path":"objects/obj_dialogue_box/obj_dialogue_box.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":0.0,"y":0.0,},
+        {"$GMRInstance":"v4","%Name":"inst_IS_PLAYER","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_IS_PLAYER","objectId":{"name":"obj_player","path":"objects/obj_player/obj_player.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":120.0,"y":440.0,},
+        {"$GMRInstance":"v4","%Name":"inst_IS_EXIT_WEST","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_IS_EXIT_WEST","objectId":{"name":"obj_exit_island_west","path":"objects/obj_exit_island_west/obj_exit_island_west.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":0.0,"y":280.0,},
+        {"$GMRInstance":"v4","%Name":"inst_IS_BOSS","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_IS_BOSS","objectId":{"name":"obj_boss_sea","path":"objects/obj_boss_sea/obj_boss_sea.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":500.0,"y":300.0,},
+      ],"layers":[],"name":"Instances","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
+  ],
+  "name":"rm_island",
+  "parent":{
+    "name":"Start Game",
+    "path":"Start Game.yyp",
+  },
+  "parentRoom":null,
+  "physicsSettings":{
+    "inheritPhysicsSettings":false,
+    "PhysicsWorld":false,
+    "PhysicsWorldGravityX":0.0,
+    "PhysicsWorldGravityY":10.0,
+    "PhysicsWorldPixToMetres":0.1,
+  },
+  "resourceType":"GMRoom",
+  "resourceVersion":"2.0",
+  "roomSettings":{
+    "Height":768,
+    "inheritRoomSettings":false,
+    "persistent":false,
+    "Width":2048,
+  },
+  "sequenceId":null,
+  "views":[
+    {"hborder":32,"hport":768,"hspeed":-1,"hview":768,"inherit":false,"objectId":{"name":"obj_player","path":"objects/obj_player/obj_player.yy",},"vborder":32,"visible":true,"vspeed":-1,"wport":1366,"wview":1366,"xport":0,"xview":0,"yport":0,"yview":0,},
+  ],
+  "viewSettings":{
+    "clearDisplayBuffer":true,
+    "clearViewBackground":false,
+    "enableViews":true,
+    "inheritViewSettings":false,
+  },
+  "volume":1.0,
+}

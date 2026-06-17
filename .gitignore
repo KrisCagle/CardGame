@@ -1,0 +1,13 @@
+# GameMaker build cache and temp files
+.cache/
+cache/
+Temp/
+temp/
+*.tmp
+
+# GameMaker IDE cache
+appdata/
+
+# Windows
+Thumbs.db
+Desktop.ini

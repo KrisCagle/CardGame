@@ -1,0 +1,57 @@
+{
+  "$GMRoom":"v1",
+  "%Name":"rm_ocean",
+  "creationCodeFile":"",
+  "inheritCode":false,
+  "inheritCreationOrder":false,
+  "inheritLayers":false,
+  "instanceCreationOrder":[
+    {"name":"inst_OC_BG","path":"rooms/rm_ocean/rm_ocean.yy",},
+    {"name":"inst_OC_DIALOGUEBOX","path":"rooms/rm_ocean/rm_ocean.yy",},
+    {"name":"inst_OC_PLAYER","path":"rooms/rm_ocean/rm_ocean.yy",},
+    {"name":"inst_OC_EXIT_WEST","path":"rooms/rm_ocean/rm_ocean.yy",},
+    {"name":"inst_OC_EXIT_ISLAND","path":"rooms/rm_ocean/rm_ocean.yy",},
+  ],
+  "isDnd":false,
+  "layers":[
+    {"$GMRInstanceLayer":"","%Name":"Instances","depth":0,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":false,"inheritVisibility":false,"instances":[
+        {"$GMRInstance":"v4","%Name":"inst_OC_BG","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_OC_BG","objectId":{"name":"obj_ocean_bg","path":"objects/obj_ocean_bg/obj_ocean_bg.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":0.0,"y":0.0,},
+        {"$GMRInstance":"v4","%Name":"inst_OC_DIALOGUEBOX","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_OC_DIALOGUEBOX","objectId":{"name":"obj_dialogue_box","path":"objects/obj_dialogue_box/obj_dialogue_box.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":0.0,"y":0.0,},
+        {"$GMRInstance":"v4","%Name":"inst_OC_PLAYER","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_OC_PLAYER","objectId":{"name":"obj_player","path":"objects/obj_player/obj_player.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":80.0,"y":384.0,},
+        {"$GMRInstance":"v4","%Name":"inst_OC_EXIT_WEST","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_OC_EXIT_WEST","objectId":{"name":"obj_exit_ocean_west","path":"objects/obj_exit_ocean_west/obj_exit_ocean_west.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":0.0,"y":220.0,},
+        {"$GMRInstance":"v4","%Name":"inst_OC_EXIT_ISLAND","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_OC_EXIT_ISLAND","objectId":{"name":"obj_exit_to_island","path":"objects/obj_exit_to_island/obj_exit_to_island.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":2020.0,"y":220.0,},
+      ],"layers":[],"name":"Instances","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
+  ],
+  "name":"rm_ocean",
+  "parent":{
+    "name":"Start Game",
+    "path":"Start Game.yyp",
+  },
+  "parentRoom":null,
+  "physicsSettings":{
+    "inheritPhysicsSettings":false,
+    "PhysicsWorld":false,
+    "PhysicsWorldGravityX":0.0,
+    "PhysicsWorldGravityY":10.0,
+    "PhysicsWorldPixToMetres":0.1,
+  },
+  "resourceType":"GMRoom",
+  "resourceVersion":"2.0",
+  "roomSettings":{
+    "Height":768,
+    "inheritRoomSettings":false,
+    "persistent":false,
+    "Width":2048,
+  },
+  "sequenceId":null,
+  "views":[
+    {"hborder":32,"hport":768,"hspeed":-1,"hview":768,"inherit":false,"objectId":{"name":"obj_player","path":"objects/obj_player/obj_player.yy",},"vborder":32,"visible":true,"vspeed":-1,"wport":1366,"wview":1366,"xport":0,"xview":0,"yport":0,"yview":0,},
+  ],
+  "viewSettings":{
+    "clearDisplayBuffer":true,
+    "clearViewBackground":false,
+    "enableViews":true,
+    "inheritViewSettings":false,
+  },
+  "volume":1.0,
+}

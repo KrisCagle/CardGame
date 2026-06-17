@@ -1,0 +1,9 @@
+target_x        = x;
+move_speed      = 2;
+arrived         = false;
+dialogue_lines  = [];
+npc_name        = "???";
+npc_color       = make_color_rgb(180, 160, 130);
+dialogue_started = false;
+leave_delay     = 60;
+leaving         = false;
