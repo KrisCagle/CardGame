@@ -1,5 +1,6 @@
 if (!instance_exists(obj_player)) exit;
 if (obj_global.player_locked) exit;
+if (obj_dialogue_box.open_cooldown > 0) exit;
 
 var _dist = point_distance(x, y, obj_player.x, obj_player.y);
 if (_dist < interact_dist && keyboard_check_pressed(vk_space)) {

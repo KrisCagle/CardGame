@@ -43,7 +43,10 @@ if (slide_timer < 60) {
 // On the last slide, Space starts the game
 if (slide_index == array_length(slides) - 1) {
     if (keyboard_check_pressed(vk_space)) {
-        room_goto(rm_overworld);
+        obj_global.building_room = rm_overworld;
+        obj_global.building_x    = 700;
+        obj_global.building_y    = 548;
+        room_goto(rm_house_interior);
     }
     exit;
 }

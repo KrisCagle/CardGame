@@ -6,5 +6,7 @@ if (instance_exists(obj_shop) && obj_shop.open) exit;
 var _dist = point_distance(x, y, obj_player.x, obj_player.y);
 if (_dist < 28) {
     obj_global.building_room = room;
+    obj_global.building_x    = x;
+    obj_global.building_y    = y + 48;
     room_goto(target_room);
 }

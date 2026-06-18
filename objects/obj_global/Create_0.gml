@@ -200,6 +200,14 @@ enemy_types = {
 // Slot for the room the player last saved in — populated by load_game()
 last_room_id = rm_overworld;
 
+// Where to spawn the player on next room load (-1 = use room default)
+spawn_x = -1;
+spawn_y = -1;
+
+// Position of the door the player entered a building from
+building_x = 700;
+building_y = 548;
+
 // Boss card rewards — strong elemental cards, rewarded from boss fights
 boss_card_pool = [
     new Card("Blaze",          2, "attack", 18,  "fire",    "burn",   5),

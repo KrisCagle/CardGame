@@ -1,11 +1,3 @@
-// Grass patch
-draw_set_alpha(0.4);
-draw_set_color(c_green);
-draw_rectangle(x, y, x + patch_w, y + patch_h, false);
-draw_set_alpha(1);
-draw_set_color(make_color_rgb(0, 100, 0));
-draw_rectangle(x, y, x + patch_w, y + patch_h, true);
-
 // Encounter flash — white "!" screen flash
 if (flash_active) {
     var progress = 1 - (flash_timer / 40);

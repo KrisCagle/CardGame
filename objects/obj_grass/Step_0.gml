@@ -27,6 +27,8 @@ if (inside) {
         steps_in_grass        = 0;
         encounter_threshold   = 8 + irandom(8);
         pending_enemy_key     = wild_pool[irandom(array_length(wild_pool) - 1)];
+        obj_global.spawn_x    = obj_player.x;
+        obj_global.spawn_y    = obj_player.y;
         flash_active          = true;
         flash_timer           = 40; // ~0.65 seconds at 60fps
     }
